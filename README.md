@@ -47,4 +47,4 @@ Uint A = 1;
 A - 2; 
 A -> MAXUint
  ```
- **3. The Exploit️ ⚔️:** Attacker interact with ```transfer()``` to induce the underflow and retrieve an absurd amout of token.
+ **3. The Exploit️ ⚔️:** Attacker interact with ```transfer()``` to induce the underflow and retrieve an absurd amount of token.
