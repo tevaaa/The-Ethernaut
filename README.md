@@ -40,6 +40,7 @@
 
 ## Level 5 - Token (Underflow)
 **1. The Root Cause** The contract is using Solidity < 0.8.0. In those versions the mathematics operations on uint are not checked by the compiler. Developper must use external libs like SafeMath."
+
 **2. 💥 The Consequence** Doing ```A - B``` where ```A < B``` doesnt induce revert but an ***underflow***. Exemple:
 ```
 Uint A = 1;
