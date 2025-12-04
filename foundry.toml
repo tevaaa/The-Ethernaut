@@ -2,7 +2,9 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+sender = "0x000000000000000000000000000000000000bEEF"
 
+auto_detect_solc = true
 remappings = [
     "openzeppelin-contracts-06/=lib/openzeppelin-contracts/contracts/", 
 ]
